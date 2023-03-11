@@ -25,7 +25,7 @@
 
 #include "mediatek/oplus6893/21609/pcbv1/21609_cust.dtsi"
 
-#include <oplus6893_21609/cust.dtsi>
+#include "oplus6893_21609/cust.dtsi"
 
 /* #ifdef OPLUS_ARCH_EXTENDS */
 #include "mediatek/oplus6893/common/oplus6893_20615_audio_extend.dtsi"

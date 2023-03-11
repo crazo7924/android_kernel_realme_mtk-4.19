@@ -1382,7 +1382,7 @@ oplus_fp: fingerprint@0 {
 };
 //#endif /* OPLUS_FEATURE_FINGERPRINT */
 #include "mediatek/cust_mt6833_camera_20015.dtsi"
-#include <oplus6833_20015/cust.dtsi>
+#include "oplus6833_20015/cust.dtsi"
 
 /* TOUCH start */
 &spi4 {

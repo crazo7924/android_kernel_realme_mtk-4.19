@@ -1151,7 +1151,7 @@ gpio_goodix_cs_func: gpio_goodix_cs_func {
 
 //#include "mediatek/cust_mt6893_touch.dtsi"
 #include "mediatek/cust_mt6893_camera_21061.dtsi"
-#include <oplus6893_21061/cust.dtsi>
+#include "oplus6893_21061/cust.dtsi"
 
 #include "mediatek/cust_mt6893_oplus_charge_21061.dtsi"
 /* #ifdef OPLUS_ARCH_EXTENDS */

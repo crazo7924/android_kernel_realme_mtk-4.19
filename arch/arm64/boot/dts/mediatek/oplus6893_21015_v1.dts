@@ -1312,6 +1312,6 @@ gpio_goodix_cs_func: gpio_goodix_cs_func {
 
 
 #include "mediatek/cust_mt6893_camera_21015_21217_v1.dtsi"
-#include <oplus6893_21015_v1/cust.dtsi>
+#include "oplus6893_21015_v1/cust.dtsi"
 #include "mediatek/cust_mt6893_oplus_charge_mozi_v1.dtsi"
 /*End of this file, DO NOT ADD ANYTHING HERE*/

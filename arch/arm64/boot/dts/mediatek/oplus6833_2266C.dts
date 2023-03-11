@@ -1104,7 +1104,7 @@ ff_pins_irq_as_int: ff_pins_irq_as_int {
 //#endif /*OPLUS_FEATURE_FINGERPRINT*/
 /* GPS GPIO standardization end */
 #include "mediatek/cust_mt6833_camera_21101.dtsi"
-#include <oplus6833_2266C/cust.dtsi>
+#include "oplus6833_2266C/cust.dtsi"
 
 //#ifdef OPLUS_FEATURE_CHG_BASIC
 #include "mediatek/oplus_charge_mt6833_22669.dtsi"

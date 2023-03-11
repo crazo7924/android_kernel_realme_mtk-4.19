@@ -1738,7 +1738,7 @@ oplus_fp: fingerprint@0 {
 };
 
 #include "mediatek/cust_mt6833_camera_21625.dtsi"
-#include <oplus6833_21625/cust.dtsi>
+#include "oplus6833_21625/cust.dtsi"
 #include "mediatek/cust_mt6833_nfc_20796.dtsi"
 &mmc1 {
     cd-gpios = <&pio 4 0>;

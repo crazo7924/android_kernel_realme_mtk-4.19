@@ -1389,7 +1389,7 @@
 //#endif /*OPLUS_FEATURE_FINGERPRINT*/
 /* GPS GPIO standardization end */
 #include "mediatek/cust_mt6833_camera_22669.dtsi"
-#include <oplus6833_2266A/cust.dtsi>
+#include "oplus6833_2266A/cust.dtsi"
 
 //#ifdef OPLUS_FEATURE_CHG_BASIC
 #include "mediatek/oplus_charge_mt6833_22669.dtsi"

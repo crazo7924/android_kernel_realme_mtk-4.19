@@ -1237,7 +1237,7 @@ gpio_goodix_cs_func: gpio_goodix_cs_func {
 //#endif /*OPLUS_FEATURE_FINGERPRINT*/
 
 #include "mediatek/cust_mt6833_camera_22609.dtsi"
-#include <oplus6833_22609/cust.dtsi>
+#include "oplus6833_22609/cust.dtsi"
 
 //#ifdef OPLUS_FEATURE_CHG_BASIC
 #include "mediatek/oplus_charge_mt6833_2260B.dtsi"

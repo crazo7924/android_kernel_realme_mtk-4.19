@@ -1362,7 +1362,7 @@ oplus_fp: fingerprint@0 {
 //#endif  /*OPLUS_VENDOR_SWTP*/
 //#endif /* OPLUS_FEATURE_FINGERPRINT */
 #include "mediatek/cust_mt6833_camera_20609.dtsi"
-#include <oplus6833_20609_DVT/cust.dtsi>
+#include "oplus6833_20609_DVT/cust.dtsi"
 
 
 /*End of this file, DO NOT ADD ANYTHING HERE*/

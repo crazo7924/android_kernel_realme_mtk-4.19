@@ -1131,7 +1131,7 @@
 };
 /* GPS GPIO standardization end */
 #include "mediatek/cust_mt6833_camera_22604.dtsi"
-#include <oplus6833_2260A/cust.dtsi>
+#include "oplus6833_2260A/cust.dtsi"
 
 //#ifdef OPLUS_FEATURE_CHG_BASIC
 #include "mediatek/oplus_charge_mt6833_22604.dtsi"

@@ -1259,7 +1259,7 @@
 /* TOUCH end */
 //#include "mediatek/cust_mt6853_touch_1080x1920.dtsi"
 #include "mediatek/cust_mt6853_camera_20301.dtsi"
-#include <oplus6853_20301/cust.dtsi>
+#include "oplus6853_20301/cust.dtsi"
 /* DISPSYS GPIO standardization */
 
 #ifndef CONFIG_FPGA_EARLY_PORTING

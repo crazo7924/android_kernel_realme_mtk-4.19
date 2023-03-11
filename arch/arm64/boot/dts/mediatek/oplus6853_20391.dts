@@ -1235,7 +1235,7 @@
 };
 /* TOUCH end */
 #include "mediatek/cust_mt6853_camera_20391.dtsi"
-#include <oplus6853_20391/cust.dtsi>
+#include "oplus6853_20391/cust.dtsi"
 /* DISPSYS GPIO standardization */
 
 #ifndef CONFIG_FPGA_EARLY_PORTING

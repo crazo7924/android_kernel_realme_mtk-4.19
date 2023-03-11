@@ -1149,7 +1149,7 @@ jiiov_fp_irq_active: jiiov_fp_irq_active {
 
 /*#include "mediatek/cust_mt6893_touch.dtsi"*/
 #include "mediatek/cust_oppo21881_camera.dtsi"
-#include <oplus6893_21881/cust.dtsi>
+#include "oplus6893_21881/cust.dtsi"
 
 /* #ifdef OPLUS_ARCH_EXTENDS */
 /* 2021/10/11, Add for oplus extend audio config */

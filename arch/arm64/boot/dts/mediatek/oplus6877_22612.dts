@@ -1189,7 +1189,7 @@
 };
 
 //#endif  /*OPLUS_VENDOR_SWTP*/
-#include <oplus6877_22612/cust.dtsi>
+#include "oplus6877_22612/cust.dtsi"
 #include "mediatek/cust_mt6877_22612_charge.dtsi"
 /*#include "mediatek/cust_mt6877_touch_1080x2300.dtsi"*/
 #include "mediatek/cust_mt6877_camera_22693.dtsi"

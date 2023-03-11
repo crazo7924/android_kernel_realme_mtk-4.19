@@ -1903,7 +1903,7 @@ oplus_fp: fingerprint@0 {
 	sdcard_hlact = <0>;
 };
 
-#include <oplus6833_210A0/cust.dtsi>
+#include "oplus6833_210A0/cust.dtsi"
 
 
 /*End of this file, DO NOT ADD ANYTHING HERE*/

@@ -1217,7 +1217,7 @@ oplus_fp: fingerprint@0 {
 };
 
 #include "mediatek/cust_mt6833_camera_21101.dtsi"
-#include <oplus6833_21235/cust.dtsi>
+#include "oplus6833_21235/cust.dtsi"
 
 //#ifdef OPLUS_FEATURE_CHG_BASIC
 #include "mediatek/oplus_charge_mt6833_21235.dtsi"

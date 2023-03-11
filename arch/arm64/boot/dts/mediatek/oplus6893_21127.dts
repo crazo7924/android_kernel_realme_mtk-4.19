@@ -1241,7 +1241,7 @@ gpio_uff_cs_func: gpio_uff_cs_func {
 //#include "mediatek/cust_mt6893_touch.dtsi"
 #include "mediatek/cust_mt6893_camera_21127.dtsi"
 #include "mediatek/cust_mt6893_21127_audio_extend.dtsi"
-#include <oplus6893_21127/cust.dtsi>
+#include "oplus6893_21127/cust.dtsi"
 #include "mediatek/cust_mt6893_oplus_charge_21127.dtsi"
 #include "mediatek/nfc/mt6893_Ali_sn110.dtsi"
 /*End of this file, DO NOT ADD ANYTHING HERE*/

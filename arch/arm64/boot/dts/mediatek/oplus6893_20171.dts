@@ -1406,7 +1406,7 @@ gpio_goodix_cs_func: gpio_goodix_cs_func {
 //#include "mediatek/cust_mt6893_touch.dtsi"
 #include "mediatek/cust_mt6893_touch.dtsi"
 #include "mediatek/cust_mt6893_camera.dtsi"
-#include <oplus6893_20171/cust.dtsi>
+#include "oplus6893_20171/cust.dtsi"
 #include "mediatek/cust_mt6893_oplus_charge_20171.dtsi"
 #include "mediatek/nfc/mt6893_Yasuo_sn100.dtsi"
 /*End of this file, DO NOT ADD ANYTHING HERE*/
