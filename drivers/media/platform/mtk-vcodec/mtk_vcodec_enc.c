@@ -2391,7 +2391,7 @@ static void mtk_venc_worker(struct work_struct *work)
 	struct venc_frm_buf *pfrm_buf;
 	struct mtk_vcodec_mem *pbs_buf;
 	struct venc_done_result enc_result;
-	int ret, i, length;
+	int ret, i;
 	struct vb2_v4l2_buffer *dst_vb2_v4l2, *src_vb2_v4l2, *pend_src_vb2_v4l2;
 	struct mtk_video_enc_buf *dst_buf_info, *src_buf_info;
 
@@ -2552,7 +2552,7 @@ static void mtk_venc_worker(struct work_struct *work)
 	}
 	pfrm_buf->num_planes = src_buf->num_planes;
 	pfrm_buf->timestamp = src_vb2_v4l2->vb2_buf.timestamp;
-	length = q_data_src->coded_width * q_data_src->coded_height;
+	q_data_src->coded_width * q_data_src->coded_height;
 
 	mtk_v4l2_debug(2,
 			"Framebuf VA=%p PA=%llx Size=0x%zx Offset=%d;VA=%p PA=0x%llx Size=0x%zx Offset=%d;VA=%p PA=0x%llx Size=%zu Offset=%d",
@@ -3083,6 +3083,8 @@ int mtk_vcodec_enc_ctrls_setup(struct mtk_vcodec_ctx *ctx)
 	cfg.def = 0;
 	cfg.ops = ops;
 	ctrl = v4l2_ctrl_new_custom(handler, &cfg, NULL);
+
+	(void)ctrl;
 
 	if (handler->error) {
 		mtk_v4l2_err("Init control handler fail %d",

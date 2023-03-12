@@ -1441,15 +1441,6 @@ config BUILD_ARM64_DTB_OVERLAY_IMAGE
 	  Overlay DT contains device-specific configurations.
 	  Please be aware that bootloader supports DT merging.
 
-choice
-	prompt "Appended DTB Kernel Image name"
-	depends on BUILD_ARM64_APPENDED_DTB_IMAGE
-	help
-	  Enabling this option will casue overlay device tree
-	  to be built by default.
-	  Overlay DT contains device-specific configurations.
-	  Please be aware that bootloader supports DT merging.
-
 config BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES
 	string "Default dtb names"
 	depends on BUILD_ARM64_APPENDED_DTB_IMAGE
@@ -1464,7 +1455,6 @@ config BUILD_ARM64_DTB_OVERLAY_IMAGE_NAMES
 	  Space separated list of names of dtbs to append when
 	  building a concatenated overlay image
 #endif
-
 endmenu
 
 config COMPAT

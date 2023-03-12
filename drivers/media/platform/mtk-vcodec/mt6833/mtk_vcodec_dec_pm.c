@@ -635,7 +635,7 @@ void mtk_vdec_dvfs_end(struct mtk_vcodec_ctx *ctx)
 void mtk_vdec_emi_bw_begin(struct mtk_vcodec_ctx *ctx)
 {
 #if DEC_EMI_BW
-	int b_freq_idx = 0;
+	// int b_freq_idx = 0;
 	int f_type = 1; /* TODO */
 	long emi_bw = 0;
 	long emi_bw_input = 0;
@@ -643,7 +643,7 @@ void mtk_vdec_emi_bw_begin(struct mtk_vcodec_ctx *ctx)
 	int is_ufo_on = 0;
 
 	if (vdec_freq_step_size > 1)
-		b_freq_idx = vdec_freq_step_size - 1;
+		;// b_freq_idx = vdec_freq_step_size - 1;
 
 	emi_bw = 8L * 1920 * 1080 * 3 * 10 * vdec_freq;
 #if BITS_PER_LONG == 32
